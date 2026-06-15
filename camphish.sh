@@ -39,7 +39,7 @@ printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | 
 printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
 printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
 printf " \e[1;93m CamPhish Ver 2.0 \e[0m \n"
-printf " \e[1;77m https://www.linkedin.com/in/vishal-dhakad-374696368 | github.com/vishaldhakad10 \e[0m \n"
+printf " \e[1;77m www.linkedin.com/in/vishal-dhakad-374696368 | github.com/vishaldhakad10 \e[0m \n"
 printf "\n"
 
 
