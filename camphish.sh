@@ -36,8 +36,8 @@ printf "\e[1;92m██████╔╝█████╗  ██║     ██
 printf "\e[1;92m██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║\e[0m\e[1;77m ██╔══╝    ╚██╔╝  ██╔══╝  \e[0m\n"
 printf "\e[1;92m██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║\e[0m\e[1;77m ███████╗   ██║   ███████╗\e[0m\n"
 printf "\e[1;92m╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝\e[0m\e[1;77m ╚══════╝   ╚═╝   ╚══════╝\e[0m\n"
-printf " \e[1;93m RECONEYE Ver 2.0 \e[0m \n"
-printf " \e[1;77m www.linkedin.com/in/vishal-dhakad-374696368 | github.com/vishaldhakad10 \e[0m \n"
+printf "|\e[1;93mRECONEYE Version 2.0\e[0m|\n"
+printf "|\e[1;77mwww.linkedin.com/in/vishal-dhakad-374696368 | github.com/vishaldhakad10\e[0m|\n"
 printf "\n"
 
 
