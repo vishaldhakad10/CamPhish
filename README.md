@@ -1,11 +1,9 @@
-# CamPhish
+# ReconEye
 Grab cam shots from target's phone front camera or PC webcam just sending a link.
-![CamPhish](https://techchip.net/wp-content/uploads/2020/04/camphish.jpg)
 
-# What is CamPhish?
-<p>CamPhish is techniques to take cam shots of target's phone front camera or PC webcam. CamPhish Hosts a fake website on in built PHP server and uses ngrok & CloudFlare Tunnel to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device
-
-A GPS location capture feature has been added.</p>
+# What is ReconEye?
+<p>ReconEye is a technique used to capture camera snapshots from a phone's front camera or a PC webcam. ReconEye hosts a website on an in-built PHP server and uses Ngrok and Cloudflare Tunnel to generate a shareable link. The website requests camera permission, and if permission is granted, the tool captures camera snapshots from the device.</p>
+<p>A GPS location capture feature has also been added.</p>
 
 ## Features
 <p>In this tool I added two automatic webpage templates for engaged target on webpage to get more picture of cam</p>
@@ -28,7 +26,7 @@ A GPS location capture feature has been added.</p>
 </ul>
 
 # Installing and requirements
-<p>This tool require PHP for webserver, and wget for downloading dependencies. First run following command on your terminal</p>
+<p>This tool requires PHP for the web server and wget for downloading dependencies. First run following command on your terminal</p>
 
 ```
 apt-get -y install php wget unzip
@@ -37,9 +35,9 @@ apt-get -y install php wget unzip
 ## Installing (Kali Linux/Termux):
 
 ```
-git clone https://github.com/techchipnet/CamPhish
-cd CamPhish
-bash camphish.sh
+git clone https://github.com/vishaldhakad10/ReconEye.git
+cd ReconEye
+bash reconeye.sh
 ```
 
 ## Clean logs & unnecessary files :
@@ -78,7 +76,7 @@ bash cleanup.sh
 <p><b>Version: 1.7:</b> Fix and add support</p>
 <ul>
   <li>fixed: termux failed to get home directory</li>
-  <li>Add support for Apple sillicon (M1/M2/M3 ARM64)</li>
+  <li>Add support for Apple Sillicon (M1/M2/M3 ARM64)</li>
   <li>Add support for arm64 like Raspberry Pi</li>
 </ul>
 <p><b>Version: 1.6:</b> Fix ngrok direct link generate</p>
